@@ -1,0 +1,94 @@
+
+   .top-header-fixed-logo {
+      height: 30px;
+   }
+   .navbar-toggler{
+       /* background: #fff !important; */
+       border-radius: 30% !important;
+       border-color: white;
+   }
+   .navbar-toggler-icon{
+       color: black !important;
+  
+   }
+   .navbar-toggler:focus {
+       text-decoration: none;
+       outline: 0;
+       /* box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width); */
+   }
+   .navbar-toggler:hover {
+    border-color: #c98d16!important;
+}
+.card-dummy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px; /* Optionally set a maximum width for the card container */
+    row-gap: 20px;
+  }
+  .h2 {
+    font-size: 32px!important;
+    font-weight: 600!important;
+}
+.blog-content-container {
+    border-radius: 50px!important;
+    padding: 30px!important;
+}
+ @media only screen and (min-width: 992px){
+    .blog-content-container {
+    border-radius: 30px!important;
+    padding: 40px!important;
+}
+ }
+
+@media only screen and (min-width: 768px) and (orientation: landscape){
+  .blog-content-container {
+    border-radius: 30px!important;
+    padding: 40px!important;
+}  
+}
+
+@media only screen and (min-width: 768px){
+    .blog-content-container {
+    border-radius: 30px!important;
+    padding: 40px!important;
+}
+}
+
+@media only screen and (min-width: 600px) and (orientation: landscape){
+   .blog-content-container {
+    border-radius: 20px!important;
+    padding: 30px!important;
+} 
+}
+
+@media only screen and (min-width: 600px){
+    .blog-content-container {
+    border-radius: 20px!important;
+    padding: 30px!important;
+}
+}
+.blog-content-container {
+    background-color: #fdfdfd;
+    border-radius: 40px;
+    padding: 50px;
+}
+.head{
+    align-items: flex-end!important;
+    color: #fdfdfd!important;
+    display: flex!important;
+    height: max(calc(22.369vh - 30px),calc(120px - 6.631vh))!important;
+    padding: 6.631vh 0!important;
+    font-weight: 650px !important;
+}
+.blog-content{
+    padding: 6.631vh 13.02vw!important;
+}
+.blog-content-container{
+    border-radius: 50px!important;
+    padding: 50px!important;
+}
+.footer-header {
+    background-color: #2c7fbf;
+    height: 10px;
+}
